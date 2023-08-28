@@ -1,6 +1,6 @@
 import { NextApiResponse, NextApiRequest } from "next";
 
-const handler = async (req: NextApiRequest, res: NextApiResponse) => {
+const handler = (req: NextApiRequest, res: NextApiResponse) => {
 
   const { id } = req.query
 
