@@ -9,7 +9,17 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
     image: "https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2022/01/USE_Pagoda-overlooking-Mount-Fuji-Japan_Credit_GettyImages-520571022.jpg?w=2200&h=880&crop=1",
     name: "テストぷろぱてぃー漢字",
     description: "テストせつめい説明",
-    attributes: "テストあとりびゅーと漢字"
+    attributes: [
+      {
+        "テストあとりびゅーと漢字": "テストあとりびゅーと漢字"
+      },
+      {
+        "テストあとりびゅーと漢字": "テストあとりびゅーと漢字"
+      },
+      {
+        "テストあとりびゅーと漢字": "テストあとりびゅーと漢字"
+      }
+    ]
   })
 
 }
