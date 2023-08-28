@@ -11,12 +11,17 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
     description: "テストせつめい説明",
     attributes: [
       {
-        "trait_type": "テストあとりびゅーと漢字",
-        "value": "テストあとりびゅーと漢字"
+        trait_type: "テストあとりびゅーと漢字",
+        value: "テストあとりびゅーと漢字"
       },
       {
-        "trait_type": "テストあとりびゅーと漢字",
-        "value": "テストあとりびゅーと漢字"
+        trait_type: "感情",
+        value: "私はここで何をしているんだ"
+      },
+      {
+        display_type: "date",
+        trait_type: "生まれる",
+        value: 1664468607
       },
     ]
   })
